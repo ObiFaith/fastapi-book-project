@@ -32,5 +32,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: Test with pytest
-        run: pytest --maxfail=5 --disable-warnings
-        continue-on-error: false
+        run: pytest
